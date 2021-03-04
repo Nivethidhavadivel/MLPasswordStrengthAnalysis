@@ -1,0 +1,123 @@
+body{
+    height: 100vh;
+    font-family: "Poppins", "Trebuchet MS", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right top, #48bda7, #6ed4e4);
+}
+section{
+    height: 80vh;
+    border-radius: 30px;
+    width: 60%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    z-index: 2;
+    backdrop-filter: blur(80px);
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.7), rgba(255,255,255,0.3));
+}
+.circle1, .circle2 {
+    background: white;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.8), rgba(255,255,255,0.3));
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle1 {
+  top: 5%;
+  right: 15%;
+  height: 150px;
+  width: 150px;
+}
+.circle2 {
+  bottom: 5%;
+  left: 10%;
+  height: 200px;
+  width: 200px;
+}
+
+.avtarimg{
+    height: 50px;
+    width: 50px;
+}
+
+input:focus{
+    outline: none;
+}
+
+input[type="text"]{
+    width: 95%;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+input[type="submit"]{
+    width: 95%;
+    height: 50px;
+    margin: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    background: linear-gradient(to right bottom, #48bda7, #6ed4e4);;
+    font-family: "Trebuchet MS";
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#algos{
+    display: inline-block;
+}
+.card{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    height: 25px;
+    width: 75px;
+    background: linear-gradient(to right bottom, #4da6ff, #99ccff);
+    border-radius: 30px;
+    padding: 10px;
+    font-weight: bolder;
+    text-align: center;
+}
+.cardred{
+    height: 25px;
+    width: 200px;
+    background: linear-gradient(to right bottom, #ff9999, #ffe6e6);
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.cardgreen{
+    height: 25px;
+    width: 200px;
+    background: linear-gradient(to right bottom, #70db70, #ebfaeb);
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.cardyellow{
+    height: 25px;
+    width: 200px;
+    background: linear-gradient(to right bottom, #ffff66, #ffffe6);
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+#container{
+    display: block;
+    justify-content: center;
+}
+#head{
+    display: block;
+    margin-bottom: 2px;
+}
